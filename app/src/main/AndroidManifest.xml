@@ -10,9 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Daylee">
 
-        <activity android:name=".Dashboard" />
-
-        <activity android:name=".Splash_Screen"
+        <activity
+            android:name=".SplashScreenActivity"
             android:theme="@style/Theme.Daylee.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,15 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".RegisterActivity"
-            android:theme="@style/Theme.Daylee.NoActionBar" />
-
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/Theme.Daylee.NoActionBar" />
-
-        <activity android:name=".AddNote"/>
+        <activity android:name=".AuthenticationActivity"
+            android:theme="@style/Theme.Daylee.NoActionBar"/>
+        <activity android:name=".Dashboard" />
+        <activity android:name=".AddNote" />
     </application>
 
 </manifest>

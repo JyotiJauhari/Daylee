@@ -8,6 +8,6 @@ class AddNote : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.add_note)
+        setContentView(R.layout.fragment_add_note)
     }
 }
